@@ -43,7 +43,7 @@ fun throwException(){
     var age=15;
 
     if(age<18)
-        throw Exception("invalid age")
+        throw CustomException("invalid age entered")
     else
         println("valid age")
 }
