@@ -52,10 +52,15 @@ fun main(){
                 println(i)
         }*/
 
+val read= Scanner(System.`in`)
 
+    var num= read.nextInt()
 
-
-
+    if(num>10 && num<20){
+        println("valid")
+    }else{
+        println("invalid")
+    }
 
 
 
