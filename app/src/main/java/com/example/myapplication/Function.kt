@@ -35,6 +35,13 @@ var lambArr : (Array<Int>) -> Unit = {
         println(i)
 }
 
+fun function1(){
+
+    println("This is a normal function")
+}
+
+
+
 fun main(){
 
     /*var res = mylam(4,5)
